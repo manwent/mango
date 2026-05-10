@@ -1,0 +1,7 @@
+theme: minima
+title: Mango, manwent
+description:
+author: mango
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
