@@ -33,7 +33,7 @@ Thus, the probability that at least three people in a group of $k$ share the sam
 $$P(k_3)=1-\frac{\sum _{j=0}^{\frac{k}{2}} Count(k_2,j)}{365^k}=1-\sum _{j=0}^{\frac{k}{2}} \frac{\binom{365}{j} \times \binom{365-j}{k-2j} \times \binom{k}{2j} \times (2j)! \times (k-2j)!}{365^k \times 2^j}$$
 
 To validate our calculations, we will introduce a random simulation.
-<iframe width='800' height='400' src='https://www.wolframcloud.com/obj/6a79bc77-d37f-4cb8-925a-ed3509f7c82d' frameborder='0'></iframe>
+<iframe width='800' height='400' src='https://www.wolframcloud.com/obj/0c6fa951-d1c3-4776-a18e-1cb944167b11' frameborder='0'></iframe>
 
 This principle transcends parties and social gatherings. In computer science, it is known as the "Birthday Attack." Cryptographic hash functions act like digital birthdays, mapping data to a fixed set of outputs. An attacker does not need to find a specific hash collision; they merely need _any_ two inputs that hash to the same value. Because of the math we just explored, this can be achieved in roughly the square root of the time required for a brute-force search. It is a testament to the power of combinatorics—a power that turns the seemingly impossible into the statistically probable.
 
